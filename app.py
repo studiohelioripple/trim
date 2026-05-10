@@ -8,6 +8,6 @@ def hello_world():
     return {"message": "Hello, World!"}
 
 print ("sds")
-# if __name__ == "__main__":
-#     print("sigmoid")
-#     app.run()
+if __name__ == "__main__":
+    print("sigmoid")
+    app.run()
