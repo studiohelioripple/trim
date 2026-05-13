@@ -1,11 +1,11 @@
 from flask import Flask
-from flask_sqlalchemy import SQLAlchemy
+from flask_sqlalchemy import SQLAlchemy # type: ignore
 
 
 app = Flask(__name__)
 
 
-# app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql://user:password@localhost:5432/mydb"
+app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql://username:fQnyLZSu2-KhV!c0=6am@localhost:5432/reigor"
 
 # # MySQL
 app.config["SQLALCHEMY_DATABASE_URI"] = "mysql+pymysql://root:up5FHoQOtbWjN88_F0r=@localhost:3306/bless"
